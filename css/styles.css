@@ -1,0 +1,182 @@
+/* VARIABLES */
+
+:root{
+    --colorGuyzo: red;
+    --colorBody: #fff;
+    --colorBodyTwo: #000; 
+    --colorChannel:#25a7f2;
+    --colorChannelTwo:#f49a25;
+    --bodySize: 16px;
+    --weightBody: bold;
+    --fontBody: 'OFL'
+}
+
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    scroll-behavior: smooth;
+    scrollbar-color: var(--colorGuyzo);
+}
+
+.test{
+    border: 1px solid var(--colorGuyzo);
+}
+
+
+/* NAVBAR */
+
+.nav-link{
+    color: var(--colorBody) !important;
+}
+
+.bg-purple{
+    background-color: var(--colorBodyTwo) !important;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 1rem;
+}
+
+.logo{
+    height: 30px;      
+}
+
+.logo-name{
+    color: var(--firstOrange);
+    font-weight: var(--weightBody);
+    font-size: 1.2rem;
+}
+
+/* NAVBAR */
+
+
+/* HEADER */
+
+#header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.77)), url("../images/workplace-1245776_1920.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#header h1,
+#header p
+{
+    color: var(--colorBody);
+}
+
+/* HEADER */
+
+
+/* FIRST SECTION */
+
+#firstsection{
+    height: 100%;
+    background-color: var(--colorBody);
+
+}
+
+#firstsection h1{
+    font-weight: bold;
+}
+
+#firstsection p{
+    width: 50%;
+}
+
+.bigger{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: var(--colorChannelTwo);
+    font-weight: bold;
+}
+
+.biggers{
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: var(--colorChannel);
+    font-weight: bold;
+}
+
+.link{
+    color: var(--colorGuyzo);
+}
+
+.link:hover{
+    text-decoration: none;
+    color: var(--colorGuyzo);
+}
+
+.link-bt,
+.link-bt:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.bt-dg,
+.bt-historique{
+    padding: .3rem 2rem;
+    border: none;
+    font-weight: bold;
+}
+
+.bt-dg{
+    background-color: var(--colorChannel);
+    color: var(--colorBody);
+    transition: .3s;
+}
+
+.bt-dg:hover{
+    background-color: transparent;
+    color: var(--colorBodyTwo);
+    border: 1px solid var(--colorChannelTwo);
+    transition: .3s;
+}
+
+.bt-historique{
+    background-color: transparent;
+    border: 1px solid var(--colorChannelTwo);
+    transition: .3s;
+}
+
+.bt-historique:hover{
+    background-color: var(--colorChannel);
+    color: var(--colorBody);
+    transition: .3s;
+    border: none;
+}
+
+.images-dg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* FIRST SECTION */
+
+
+/* SECOND SECTION */
+
+#secondsection{
+    height: 100vh;
+}
+
+
+
+/* SECOND SECTION */
